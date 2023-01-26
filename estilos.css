@@ -1,0 +1,52 @@
+/*
+#encabezadousuario {
+    text-align: center;
+}
+
+.bordeoscuro {
+    border-style: solid;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#encabezadotitulo {
+    border-style: solid;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#encabezadotitulotexto{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#encabezadousuario {
+    border-style: solid;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.encabezadousrtexto {
+    font-size:x-large;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezadonombretexto {
+    font-size:xx-large;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;    
+}
