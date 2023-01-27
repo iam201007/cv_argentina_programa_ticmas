@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <!-- Open Graph data -->
+    <meta property="og:title" content="CVRafaelChapman" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://github.com/iam201007/cv_argentina_programa_ticmas.git" />
+    <meta property="og:image" content="https://static.wixstatic.com/media/77d9b2_3ca9778fb4cf45b09f6956e0a7434a1c~mv2.png/v1/crop/x_79,y_0,w_1198,h_891/fill/w_640,h_476,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/dispositivos.png" />
+    <meta property="og:description" content="Trabajo Final" />
+    <!-- Principal -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+    <title>CVRafaelChapman</title>
+        <!--- 
+            Trabajo Final
+            Argentina Programa 4.0
+            Academia TicMas
+            Curso Front end Academy - 2022
+            Primeros pasos del desarrollo frontend
+            Instructor Daniel Rinaldi
+        -->
+</head>
+
+<body>
+
+    <!--- enlaces en la misma página: https://desarrolloweb.com/faq/saltos-de-pagina -->
+    <a name="inicio"></a>
+
+    <head>
+        <!--- El nombre del usuario surge de la página sugerida:
+        https://randomuser.me/
+        -->
+        <div>
+            <table id="encabezadotitulo">
+                <tr>
+                    <td><h1 id="encabezadotitulotexto">Curriculum Vitae</h1></td>                    
+                </tr>
+            </table>
+            <table id="encabezadousuario">
+                <tr>
+                    <td>
+                    </td>
+                    <td>
+                        <p id="saludo" class="encabezadousrtexto">Saludo</p>
+                        <p class="encabezadousrtexto">Mi nombre es</p>
+                        <p class="encabezadonombretexto">Rafael Chapman</p>
+                    </td>
+                    <td>
+                        <img src="rafaelchapman.jpg" alt="Foto de Rafael Chapman">
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </head>
+
+    <nav id="navegacion">
+        Secciones: 
+        <a href="#infopersonal">InformaciónPersonal</a> |
+        <a href="#contacto">Contacto</a> |
+        <a href="#experiencia">Experiencia</a> |
+        <a href="#videocv">VideoCV</a> |
+        <a href="#formulario">FormularioDeContacto</a>
+    </nav>
+
+    <main>
+        <a name="infopersonal"></a>
+        <h2 class="banding01">Información personal:</h2>
+        <button type="button" class="contraer">Ver detalle</button>
+        <section class="contenido">
+            <li>Nombre completo: Rafael Chapman</li>
+            <li>Fecha de nacimiento: 01/01/1976</li>
+            <li>Edad: 47 años</li>
+            <li>Lugar de residencia: Córdoba, Argentina</li>
+        </section>
+        <a name="contacto"></a>
+        <h2 class="banding02">Información de contacto:</h2>
+        <button type="button" class="contraer">Ver detalle</button>
+        <section class="contenido">
+            <img src="logo_linkedin.jpg" alt="Linkedin" width="30px" height="30px"><a href="https://ar.linkedin.com/">Perfil público en LinkedIn</a>
+            <br>
+            <img src="logo_facebook.jpg" alt="Facebook" width="30px" height="30px"><a href="https://es-la.facebook.com/">Perfil público en Facebook</a>
+            <br>
+        </section>
+        <a name="experiencia"></a>
+        <h2 class="banding01">Experiencia Laboral:</h2>
+        <button type="button" class="contraer">Ver detalle</button>
+        <section class="contenido">            
+            <li>Empresa 1 SRL, 2 años, Front end devolper jr</li>
+            <li>Empresa 2 SRL, 1 año, Front end devolper jr</li>
+            <li>Empresa 3 SRL, 5 años, Front end devolper jr</li>
+        </section>
+        <a name="videocv"></a>
+        <h2 class="banding02">VideoCV:</h2>
+        <button type="button" class="contraer">Ver detalle</button>
+        <section class="contenido">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gU2tu6_zMJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <a name="formulario"></a>
+        <h2 class="banding01">Formulario de contacto (en construcción):</h2>
+        <button type="button" class="contraer">Ver detalle</button>
+        <section class="contenido">
+            <!-- https://www.w3schools.com/html/tryit.asp?filename=tryhtml_form_submit -->
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John" required><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe" required><br>
+                <label for="email">Last name:</label><br>
+                <input type="text" id="email" name="email" value="jdoe@gmail.com" required><br><br>
+                <input type="submit" value="Submit">
+            </form> 
+            <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+        </section>
+    </main>
+
+    <footer id="navegacion">
+        <span class="material-symbols-outlined">
+            home
+        </span>
+        <a href="#inicio">Volver al Inicio</a>
+    </footer>
+
+    <script src="cv.js"></script>
+</body>
+</html>

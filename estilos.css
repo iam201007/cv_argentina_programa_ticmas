@@ -1,0 +1,96 @@
+/*
+#encabezadousuario {
+    text-align: center;
+}
+
+.bordeoscuro {
+    border-style: solid;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+#encabezadotitulo {
+    border-style: solid;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+#encabezadotitulotexto{
+    font-size: xx-large;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+#encabezadousuario {
+    border-style: solid;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 100%;
+}
+
+.encabezadousrtexto {
+    font-size:x-large;
+    color: green;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezadonombretexto {
+    font-size:xx-large;
+    color: blue;
+    font-family: 'Roboto', sans-serif;
+    background-color: white;    
+}
+
+#navegacion{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font: size 22px;;
+    font-family: 'Roboto', sans-serif;
+    background-color: lightsalmon;
+}
+
+.banding01{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightblue;
+}
+
+.banding02{
+    font-family: 'Roboto', sans-serif;
+    background-color: lightgreen;
+}
+
+/* Style the button that is used to open and close the collapsible content
+   Source: https://www.w3schools.com/howto/howto_js_collapsible.asp
+*/
+.contraer {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 12px;
+}
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .contraer:hover {
+    background-color: #ccc;
+}
+/* Style the collapsible content. Note: hidden by default */
+.contenido {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
